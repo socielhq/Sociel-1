@@ -23,9 +23,9 @@ export async function POST(request: Request) {
     );
   }
 
-  const apiKey = process.env.RESEND_API_KEY;
-  const to = process.env.CONTACT_TO_EMAIL;
-  const from = process.env.CONTACT_FROM_EMAIL || "Sociel <onboarding@resend.dev>";
+  const apiKey = cleanEnv(process.env.RESEND_API_KEY);
+  const to = cleanEnv(process.env.CONTACT_TO_EMAIL);
+  const from = cleanEnv(process.env.CONTACT_FROM_EMAIL) || "Sociel <onboarding@resend.dev>";
 
   if (!apiKey || !to) {
     return NextResponse.json(
@@ -58,6 +58,11 @@ export async function POST(request: Request) {
   });
 
   if (!resendResponse.ok) {
+    console.error("Resend contact send failed", {
+      status: resendResponse.status,
+      body: await resendResponse.text()
+    });
+
     return NextResponse.json(
       { error: "Unable to send message right now." },
       { status: 502 }
@@ -65,4 +70,8 @@ export async function POST(request: Request) {
   }
 
   return NextResponse.json({ ok: true });
+}
+
+function cleanEnv(value?: string) {
+  return value?.trim().replace(/^["']|["']$/g, "");
 }
