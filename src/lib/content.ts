@@ -86,7 +86,6 @@ export const work = [
       "/work/clarity-spend/03.webp",
       "/work/clarity-spend/04.webp",
       "/work/clarity-spend/05.webp",
-      "/work/clarity-spend/06.webp",
       "/work/clarity-spend/07.webp"
     ]
   },
