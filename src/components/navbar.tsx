@@ -31,9 +31,9 @@ export function Navbar() {
           <Image
             src="/sociel-logo.svg"
             alt="sociel"
-            className="h-9 w-auto"
-            width={93}
-            height={36}
+            className="h-10 w-auto"
+            width={103}
+            height={40}
           />
         </Link>
 
@@ -89,9 +89,9 @@ export function Navbar() {
               <Image
                 src="/sociel-logo.svg"
                 alt="sociel"
-                className="h-9 w-auto"
-                width={93}
-                height={36}
+                className="h-10 w-auto"
+                width={103}
+                height={40}
               />
               <button
                 type="button"

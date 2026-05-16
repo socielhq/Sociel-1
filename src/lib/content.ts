@@ -74,19 +74,38 @@ export const work = [
   },
   {
     number: "02",
-    title: "Positioning-First Content For Decision Makers",
-    label: "Brand Messaging / Social Creative",
-    image: "/work/positioning-reset.webp",
+    title: "Questions That Turn Clarity Into Scale",
+    label: "Brand Messaging / Carousel System",
+    image: "/work/clarity-spend/01.webp",
     description:
-      "A refined visual direction that turns operational decisions into calm, credible content for high-intent audiences."
+      "A strategic carousel that turns positioning questions into a premium narrative for decision makers.",
+    carouselAspect: "portrait",
+    carousel: [
+      "/work/clarity-spend/01.webp",
+      "/work/clarity-spend/02.webp",
+      "/work/clarity-spend/03.webp",
+      "/work/clarity-spend/04.webp",
+      "/work/clarity-spend/05.webp",
+      "/work/clarity-spend/06.webp",
+      "/work/clarity-spend/07.webp"
+    ]
   },
   {
     number: "03",
-    title: "Clarity-Led Posts That Reframe The Problem",
+    title: "Traffic-Led Posts That Reframe The Problem",
     label: "Instagram / Authority Content",
-    image: "/work/clarity-direction.webp",
+    image: "/work/traffic-clarity/01.webp",
     description:
-      "A clean narrative format designed to make expertise feel immediate, memorable, and easy to understand."
+      "A clean carousel sequence designed to show why stronger clarity must come before higher traffic.",
+    carouselAspect: "square",
+    carousel: [
+      "/work/traffic-clarity/01.webp",
+      "/work/traffic-clarity/02.webp",
+      "/work/traffic-clarity/03.webp",
+      "/work/traffic-clarity/04.webp",
+      "/work/traffic-clarity/05.webp",
+      "/work/traffic-clarity/06.webp"
+    ]
   }
 ];
 
