@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ButtonLink } from "@/components/button-link";
+import Image from "next/image";
 
 export function Hero() {
   return (
@@ -40,77 +41,71 @@ export function Hero() {
           transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1], delay: 0.12 }}
           className="relative mx-auto aspect-[1.02] w-full max-w-[600px]"
         >
-          <div className="signal-frame absolute inset-0 rounded-[2rem] border border-line bg-white/[0.04] p-4 shadow-[0_30px_120px_rgba(0,0,0,0.38)]">
+          <div className="absolute inset-0 rounded-[2rem] border border-line bg-white/[0.04] p-4 shadow-[0_30px_120px_rgba(0,0,0,0.38)]">
             <div className="relative h-full overflow-hidden rounded-[1.45rem] border border-line bg-[#181713]">
               <div className="absolute inset-0 grid-texture opacity-25" />
-              <div className="absolute left-8 top-8 flex items-center gap-2 rounded-full border border-line bg-white/[0.05] px-3 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-muted">
+              <div className="absolute left-7 top-7 z-20 flex items-center gap-2 rounded-full border border-line bg-background/70 px-3 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-muted backdrop-blur-sm">
                 <span className="h-2 w-2 rounded-full bg-warm" />
-                Live System
+                Selected Work
               </div>
-              <motion.div
-                animate={{ x: [0, 8, 0], y: [0, -6, 0] }}
-                transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute left-8 top-24 h-40 w-36 rounded-[2rem] border border-warm/26 bg-warm/12"
-              />
-              <motion.div
-                animate={{ x: [0, -10, 0], y: [0, 8, 0] }}
-                transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute right-10 top-14 h-56 w-40 rounded-full border border-accent-2/45 bg-accent-2/8"
-              />
-              <div className="absolute left-12 top-48 h-28 w-[58%] rounded-[1.35rem] border border-line bg-white/[0.055] p-4 shadow-2xl">
-                <div className="flex items-center justify-between text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-muted">
-                  <span>Content Queue</span>
-                  <span>12 Assets</span>
-                </div>
-                <div className="mt-5 grid grid-cols-5 gap-2">
-                  {[70, 44, 92, 58, 76].map((height, index) => (
-                    <div key={index} className="flex h-12 items-end rounded-full bg-white/[0.08] p-1">
-                      <motion.span
-                        initial={{ height: 0 }}
-                        animate={{ height: `${height}%` }}
-                        transition={{ duration: 0.75, delay: 0.42 + index * 0.08 }}
-                        className="block w-full rounded-full bg-warm/80"
-                      />
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <div className="absolute bottom-8 left-8 right-8 h-40 rounded-[1.35rem] border border-line bg-surface p-5 text-surface-ink shadow-[0_18px_70px_rgba(0,0,0,0.24)]">
-                <div className="flex items-center justify-between text-xs font-semibold uppercase tracking-[0.16em] text-surface-ink/55">
-                  <span>Weekly Cadence</span>
-                  <span>04 / 12</span>
-                </div>
-                <div className="mt-5 grid grid-cols-[1.1fr_0.9fr] gap-3">
-                  <div className="rounded-2xl bg-[#d9d0c0] p-3">
-                    <div className="h-2 w-20 rounded-full bg-[#34342d]/75" />
-                    <div className="mt-8 h-2 rounded-full bg-[#34342d]/25" />
-                    <div className="mt-2 h-2 w-2/3 rounded-full bg-[#34342d]/20" />
-                  </div>
-                  <div className="grid grid-cols-2 gap-2">
-                    <div className="rounded-2xl bg-[#34342d] p-2">
-                      <div className="h-full rounded-xl border border-warm/30" />
-                    </div>
-                    <div className="rounded-2xl bg-[#c4b494] p-2">
-                      <div className="h-full rounded-full bg-[#34342d]/30" />
-                    </div>
-                  </div>
-                </div>
-              </div>
+
               <motion.div
                 animate={{ y: [0, -8, 0] }}
-                transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute right-8 top-40 w-52 rounded-2xl border border-line bg-[#23221d] p-4 shadow-2xl"
+                transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
+                className="absolute left-8 top-24 z-10 aspect-[4/5] w-[43%] overflow-hidden rounded-[1.35rem] border border-white/15 bg-[#eee8dd] p-2 shadow-[0_26px_90px_rgba(0,0,0,0.36)]"
               >
-                <div className="h-2 w-16 rounded-full bg-warm/70" />
-                <div className="mt-5 space-y-2">
-                  <div className="h-2 rounded-full bg-white/18" />
-                  <div className="h-2 w-2/3 rounded-full bg-white/12" />
-                </div>
-                <div className="mt-5 flex gap-2">
-                  <div className="h-12 flex-1 rounded-xl bg-accent-2/35" />
-                  <div className="h-12 flex-1 rounded-xl bg-warm/30" />
+                <div className="relative h-full overflow-hidden rounded-[1rem]">
+                  <Image
+                    src="/work/marketing-101.webp"
+                    alt="Marketing strategy carousel design"
+                    fill
+                    sizes="260px"
+                    className="object-contain"
+                    priority
+                  />
                 </div>
               </motion.div>
+
+              <motion.div
+                animate={{ y: [0, 7, 0] }}
+                transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
+                className="absolute right-8 top-16 z-0 aspect-[4/5] w-[38%] overflow-hidden rounded-[1.2rem] border border-white/12 bg-[#eee8dd] p-2 opacity-95 shadow-[0_22px_70px_rgba(0,0,0,0.28)]"
+              >
+                <div className="relative h-full overflow-hidden rounded-[0.9rem]">
+                  <Image
+                    src="/work/positioning-reset.webp"
+                    alt="Positioning content post design"
+                    fill
+                    sizes="230px"
+                    className="object-contain"
+                  />
+                </div>
+              </motion.div>
+
+              <motion.div
+                animate={{ x: [0, 8, 0], y: [0, -5, 0] }}
+                transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
+                className="absolute bottom-10 right-14 z-20 aspect-square w-[42%] overflow-hidden rounded-[1.25rem] border border-white/14 bg-[#eee8dd] p-2 shadow-[0_24px_80px_rgba(0,0,0,0.34)]"
+              >
+                <div className="relative h-full overflow-hidden rounded-[0.95rem]">
+                  <Image
+                    src="/work/clarity-direction.webp"
+                    alt="Clarity-led social post design"
+                    fill
+                    sizes="250px"
+                    className="object-contain"
+                  />
+                </div>
+              </motion.div>
+
+              <div className="absolute bottom-8 left-8 z-30 max-w-[15rem] rounded-[1.2rem] border border-line bg-background/75 p-4 backdrop-blur-md">
+                <p className="text-xs font-semibold uppercase tracking-[0.16em] text-warm">
+                  Strategy / Design / Publishing
+                </p>
+                <p className="mt-3 text-sm leading-6 text-muted">
+                  Editorial posts built to look sharp, read clearly, and feel consistent across the feed.
+                </p>
+              </div>
             </div>
           </div>
         </motion.div>

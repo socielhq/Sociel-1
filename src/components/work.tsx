@@ -25,13 +25,13 @@ export function Work() {
               <div className="relative overflow-hidden rounded-[1.15rem] border border-line bg-[#1e1d18] p-3 transition duration-500 group-hover:scale-[1.012]">
                 <div className="absolute inset-0 grid-texture opacity-20" />
                 <div className="absolute -right-10 -top-10 h-36 w-36 rounded-full bg-warm/10 blur-2xl" />
-                <div className="relative aspect-square overflow-hidden rounded-[0.95rem] border border-white/10 bg-surface shadow-[0_24px_80px_rgba(0,0,0,0.28)]">
+                <div className="relative aspect-[4/5] overflow-hidden rounded-[0.95rem] border border-white/10 bg-[#eee8dd] shadow-[0_24px_80px_rgba(0,0,0,0.28)]">
                   <Image
                     src={item.image}
                     alt={item.title}
                     fill
                     sizes="(min-width: 1024px) 31vw, (min-width: 768px) 50vw, 100vw"
-                    className="object-cover transition duration-700 group-hover:scale-[1.035]"
+                    className="object-contain transition duration-700 group-hover:scale-[1.025]"
                   />
                 </div>
                 <div className="absolute left-6 top-6 rounded-full border border-white/15 bg-background/70 px-3 py-1 text-[0.68rem] font-bold uppercase tracking-[0.16em] text-foreground backdrop-blur-sm">
