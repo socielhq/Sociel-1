@@ -9,8 +9,8 @@ export function Process() {
       <div className="container-shell">
         <span className="signal-mark mx-auto mb-6" aria-hidden="true" />
         <SectionHeading
-          eyebrow="process"
-          title="a calm workflow for channels that never really sleep"
+          eyebrow="Process"
+          title="A Calm Workflow For Channels That Never Really Sleep"
           description="A simple operating rhythm keeps the creative work clear, approved, and published without turning social into chaos."
         />
         <div className="relative grid gap-4 lg:grid-cols-5">

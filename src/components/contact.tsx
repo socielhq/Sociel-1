@@ -46,9 +46,9 @@ export function Contact() {
       <div className="container-shell relative grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
         <div>
           <span className="signal-mark mb-6" aria-hidden="true" />
-          <p className="eyebrow">contact</p>
+          <p className="eyebrow">Contact</p>
           <h2 className="mt-4 text-balance text-4xl font-semibold tracking-normal sm:text-5xl">
-            let&apos;s build a social presence that can actually keep pace.
+            Let&apos;s build a social presence that can actually keep pace.
           </h2>
           <p className="mt-5 max-w-xl text-lg leading-8 text-muted">
             Tell us what you are managing, what feels messy, and where the brand
@@ -66,11 +66,11 @@ export function Contact() {
           className="signal-frame tactile-card rounded-[1.5rem] border border-line bg-white/[0.045] p-5 transition duration-300 sm:p-7"
         >
           <div className="grid gap-4 sm:grid-cols-2">
-            <Field label="name" name="name" placeholder="your name" required />
-            <Field label="email" name="email" type="email" placeholder="you@brand.com" required />
-            <Field label="brand / company" name="brand" placeholder="brand name" />
+            <Field label="Name" name="name" placeholder="Your name" required />
+            <Field label="Email" name="email" type="email" placeholder="you@brand.com" required />
+            <Field label="Brand / Company" name="brand" placeholder="Brand name" />
             <label className="grid gap-2 text-sm font-semibold text-foreground">
-              platform focus
+              Platform Focus
               <select
                 name="platform"
                 className="focus-ring min-h-12 rounded-2xl border border-line bg-[#11110f] px-4 text-sm text-foreground"
@@ -85,12 +85,12 @@ export function Contact() {
             </label>
           </div>
           <label className="mt-4 grid gap-2 text-sm font-semibold text-foreground">
-            message
+            Message
             <textarea
               name="message"
               required
               rows={6}
-              placeholder="what should sociel help you organize, sharpen, or publish?"
+              placeholder="What should Sociel help you organize, sharpen, or publish?"
               className="focus-ring resize-none rounded-2xl border border-line bg-[#11110f] px-4 py-3 text-sm leading-6 text-foreground placeholder:text-muted/60"
             />
           </label>
@@ -99,7 +99,7 @@ export function Contact() {
             disabled={status === "sending"}
             className="focus-ring mt-5 min-h-12 w-full rounded-full bg-surface px-5 text-sm font-semibold text-surface-ink shadow-[inset_0_1px_0_rgba(255,255,255,0.45),0_16px_45px_rgba(0,0,0,0.22)] transition hover:-translate-y-0.5 hover:bg-warm disabled:cursor-wait disabled:opacity-70"
           >
-            {status === "sending" ? "sending..." : "start a project"}
+            {status === "sending" ? "Sending..." : "Start A Project"}
           </button>
           {status === "success" ? (
             <p className="mt-4 rounded-2xl border border-warm/25 bg-warm/10 px-4 py-3 text-sm text-foreground">

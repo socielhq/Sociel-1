@@ -8,9 +8,9 @@ export function WhyUs() {
       <div className="container-shell grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
         <AnimatedSection>
           <span className="signal-mark mb-6" aria-hidden="true" />
-          <p className="eyebrow">why brands work with us</p>
+          <p className="eyebrow">Why Brands Work With Us</p>
           <h2 className="mt-4 text-balance text-3xl font-semibold tracking-normal sm:text-4xl md:text-5xl">
-            management with taste, structure, and enough cultural awareness to matter.
+            Management with taste, structure, and enough cultural awareness to matter.
           </h2>
           <p className="mt-5 text-lg leading-8 text-muted">
             The goal is not to post more for the sake of volume. It is to build

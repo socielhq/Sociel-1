@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion";
 import { Instagram, Menu, X } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { navItems } from "@/lib/content";
@@ -26,11 +27,14 @@ export function Navbar() {
       className="fixed inset-x-0 top-0 z-50 border-b backdrop-blur-md"
     >
       <nav className="container-shell flex h-20 items-center justify-between">
-        <Link href="#" className="focus-ring flex items-center gap-3 rounded-full">
-          <span className="flex h-9 w-9 items-center justify-center rounded-full border border-line bg-white/[0.04] text-sm font-bold text-warm">
-            sc
-          </span>
-          <span className="text-lg font-semibold tracking-normal">sociel</span>
+        <Link href="#" className="focus-ring flex items-center rounded-sm">
+          <Image
+            src="/sociel-logo.svg"
+            alt="sociel"
+            className="h-9 w-auto"
+            width={93}
+            height={36}
+          />
         </Link>
 
         <div className="hidden items-center gap-1 rounded-full border border-line bg-white/[0.035] p-1 md:flex">
@@ -59,7 +63,7 @@ export function Navbar() {
             href="#contact"
             className="focus-ring rounded-full bg-surface px-4 py-2 text-sm font-semibold text-surface-ink shadow-[inset_0_1px_0_rgba(255,255,255,0.45),0_12px_35px_rgba(0,0,0,0.22)] transition hover:-translate-y-0.5 hover:bg-warm"
           >
-            start a project
+            Start A Project
           </Link>
         </div>
 
@@ -82,7 +86,13 @@ export function Navbar() {
             className="fixed inset-0 z-50 bg-background/96 md:hidden"
           >
             <div className="container-shell flex h-20 items-center justify-between">
-              <span className="text-lg font-semibold">sociel</span>
+              <Image
+                src="/sociel-logo.svg"
+                alt="sociel"
+                className="h-9 w-auto"
+                width={93}
+                height={36}
+              />
               <button
                 type="button"
                 aria-label="Close navigation menu"
@@ -116,7 +126,7 @@ export function Navbar() {
                 onClick={() => setOpen(false)}
                 className="focus-ring mt-5 flex min-h-12 items-center justify-center rounded-full bg-surface px-5 text-sm font-semibold text-surface-ink"
               >
-                start a project
+                Start A Project
               </Link>
               <Link
                 href="https://instagram.com/sociel.in"

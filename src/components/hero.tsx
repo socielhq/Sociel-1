@@ -17,9 +17,9 @@ export function Hero() {
           className="max-w-3xl"
         >
           <span className="signal-mark mb-6" aria-hidden="true" />
-          <p className="eyebrow">social presence / managed with taste</p>
+          <p className="eyebrow">Social Presence / Managed With Taste</p>
           <h1 className="mt-5 text-balance text-5xl font-semibold leading-[0.98] tracking-normal text-foreground sm:text-6xl lg:text-7xl">
-            your brand should feel alive where people actually pay attention.
+            Your brand should feel alive where people actually pay attention.
           </h1>
           <p className="mt-6 max-w-2xl text-pretty text-lg leading-8 text-muted sm:text-xl">
             Sociel manages modern Instagram, LinkedIn, short-form, editing,
@@ -27,9 +27,9 @@ export function Hero() {
             consistency and cultural fluency.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <ButtonLink href="#contact">start a project</ButtonLink>
+            <ButtonLink href="#contact">Start A Project</ButtonLink>
             <ButtonLink href="#services" variant="secondary">
-              view services
+              View Services
             </ButtonLink>
           </div>
         </motion.div>
@@ -45,7 +45,7 @@ export function Hero() {
               <div className="absolute inset-0 grid-texture opacity-25" />
               <div className="absolute left-8 top-8 flex items-center gap-2 rounded-full border border-line bg-white/[0.05] px-3 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-muted">
                 <span className="h-2 w-2 rounded-full bg-warm" />
-                live system
+                Live System
               </div>
               <motion.div
                 animate={{ x: [0, 8, 0], y: [0, -6, 0] }}
@@ -59,8 +59,8 @@ export function Hero() {
               />
               <div className="absolute left-12 top-48 h-28 w-[58%] rounded-[1.35rem] border border-line bg-white/[0.055] p-4 shadow-2xl">
                 <div className="flex items-center justify-between text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-muted">
-                  <span>content queue</span>
-                  <span>12 assets</span>
+                  <span>Content Queue</span>
+                  <span>12 Assets</span>
                 </div>
                 <div className="mt-5 grid grid-cols-5 gap-2">
                   {[70, 44, 92, 58, 76].map((height, index) => (
@@ -77,7 +77,7 @@ export function Hero() {
               </div>
               <div className="absolute bottom-8 left-8 right-8 h-40 rounded-[1.35rem] border border-line bg-surface p-5 text-surface-ink shadow-[0_18px_70px_rgba(0,0,0,0.24)]">
                 <div className="flex items-center justify-between text-xs font-semibold uppercase tracking-[0.16em] text-surface-ink/55">
-                  <span>weekly cadence</span>
+                  <span>Weekly Cadence</span>
                   <span>04 / 12</span>
                 </div>
                 <div className="mt-5 grid grid-cols-[1.1fr_0.9fr] gap-3">

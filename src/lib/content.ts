@@ -17,11 +17,11 @@ import {
 } from "lucide-react";
 
 export const navItems = [
-  { label: "services", href: "#services" },
-  { label: "work", href: "#work" },
-  { label: "approach", href: "#approach" },
-  { label: "process", href: "#process" },
-  { label: "contact", href: "#contact" }
+  { label: "Services", href: "#services" },
+  { label: "Work", href: "#work" },
+  { label: "Approach", href: "#approach" },
+  { label: "Process", href: "#process" },
+  { label: "Contact", href: "#contact" }
 ];
 
 export const services = [
@@ -66,48 +66,51 @@ export const services = [
 export const work = [
   {
     number: "01",
-    title: "The founder-led operating system",
-    label: "linkedin / content planning",
+    title: "Educational Content With A Sharper Point Of View",
+    label: "Instagram / Carousel Strategy",
+    image: "/work/marketing-101.webp",
     description:
-      "A weekly publishing structure for a service brand that needed clear authority without corporate stiffness."
+      "A premium thought-led post system built around simple strategic truths, editorial spacing, and save-worthy framing."
   },
   {
     number: "02",
-    title: "Visual cadence for a local studio",
-    label: "instagram / visual design",
+    title: "Positioning-First Content For Decision Makers",
+    label: "Brand Messaging / Social Creative",
+    image: "/work/positioning-reset.webp",
     description:
-      "A warmer grid language, repeatable story formats, and cleaner campaign moments across launch weeks."
+      "A refined visual direction that turns operational decisions into calm, credible content for high-intent audiences."
   },
   {
     number: "03",
-    title: "Short-form pipeline for a product team",
-    label: "reels / editing workflow",
+    title: "Clarity-Led Posts That Reframe The Problem",
+    label: "Instagram / Authority Content",
+    image: "/work/clarity-direction.webp",
     description:
-      "A compact clip system that turned raw ideas into consistent, platform-ready vertical content."
+      "A clean narrative format designed to make expertise feel immediate, memorable, and easy to understand."
   }
 ];
 
 export const reasons = [
   {
-    title: "consistency that compounds",
+    title: "Consistency That Compounds",
     description:
       "Presence gets easier to trust when the cadence, tone, and visuals keep showing up.",
     icon: CalendarCheck
   },
   {
-    title: "visual quality with restraint",
+    title: "Visual Quality With Restraint",
     description:
       "Design choices feel current and editorial without becoming noisy or overly decorative.",
     icon: Eye
   },
   {
-    title: "organized execution",
+    title: "Organized Execution",
     description:
       "Planning, edits, approvals, and publishing live in a clear system instead of scattered tasks.",
     icon: Workflow
   },
   {
-    title: "internet-native judgment",
+    title: "Internet-Native Judgment",
     description:
       "We understand platform behavior, social formats, and the difference between relevance and trend-chasing.",
     icon: Sparkles
@@ -116,27 +119,27 @@ export const reasons = [
 
 export const process = [
   {
-    title: "onboarding",
+    title: "Onboarding",
     description: "Understand the brand, platforms, constraints, voice, and current content habits.",
     icon: Target
   },
   {
-    title: "planning",
+    title: "Planning",
     description: "Shape the monthly rhythm, content pillars, platform mix, and publishing priorities.",
     icon: BarChart3
   },
   {
-    title: "editing / design",
+    title: "Editing / Design",
     description: "Turn ideas and source material into clean, platform-ready posts, clips, and assets.",
     icon: Aperture
   },
   {
-    title: "approvals",
+    title: "Approvals",
     description: "Keep review cycles focused, easy to follow, and light enough to maintain momentum.",
     icon: Layers3
   },
   {
-    title: "publishing",
+    title: "Publishing",
     description: "Schedule, post, refine, and keep the presence active with reliable execution.",
     icon: Film
   }
@@ -145,12 +148,17 @@ export const process = [
 export const testimonials = [
   {
     quote:
-      "Sociel gave our content a rhythm that finally felt manageable and visually consistent.",
-    name: "Founder, boutique studio"
+      "Sociel brought a cleaner rhythm to our digital presence. The content felt organized, premium, and much easier for our audience to understand.",
+    name: "Elegant Options"
   },
   {
     quote:
-      "The work felt sharp without trying too hard. Our channels became clearer within the first month.",
-    name: "Marketing lead, services brand"
+      "The positioning-led approach helped our ideas land with more clarity. Every post felt intentional, not just designed for the sake of posting.",
+    name: "Global CMO Partners"
+  },
+  {
+    quote:
+      "The visual direction and execution made our content feel sharper while still staying simple, readable, and platform-native.",
+    name: "Creative News Bharat"
   }
 ];

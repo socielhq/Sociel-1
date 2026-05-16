@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Instagram } from "lucide-react";
 import { navItems } from "@/lib/content";
 
@@ -7,8 +8,14 @@ export function Footer() {
     <footer className="border-t border-line py-8">
       <div className="container-shell flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <p className="text-lg font-semibold">sociel</p>
-          <p className="mt-1 text-sm text-muted">social media management studio</p>
+          <Image
+            src="/sociel-logo.svg"
+            alt="sociel"
+            className="h-10 w-auto"
+            width={103}
+            height={40}
+          />
+          <p className="mt-1 text-sm text-muted">Social Media Management Studio</p>
         </div>
         <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
           <Link
