@@ -19,7 +19,7 @@ export function Hero() {
         >
           <span className="signal-mark mb-6" aria-hidden="true" />
           <p className="eyebrow">Social Presence / Managed With Taste</p>
-          <h1 className="mt-5 text-balance text-5xl font-semibold leading-[0.98] tracking-normal text-foreground sm:text-6xl lg:text-7xl">
+          <h1 className="hero-display mt-5 text-balance text-5xl leading-[1.02] tracking-normal text-foreground sm:text-6xl lg:text-7xl">
             Your brand should feel alive where people actually pay attention.
           </h1>
           <p className="mt-6 max-w-2xl text-pretty text-lg leading-8 text-muted sm:text-xl">
@@ -98,7 +98,7 @@ export function Hero() {
                 </div>
               </motion.div>
 
-              <div className="absolute bottom-8 left-8 z-30 max-w-[15rem] rounded-[1.2rem] border border-line bg-background/75 p-4 backdrop-blur-md">
+              <div className="absolute bottom-8 left-8 z-30 hidden max-w-[15rem] rounded-[1.2rem] border border-line bg-background/75 p-4 backdrop-blur-md sm:block">
                 <p className="text-xs font-semibold uppercase tracking-[0.16em] text-warm">
                   Strategy / Design / Publishing
                 </p>

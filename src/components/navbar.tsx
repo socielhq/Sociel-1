@@ -115,7 +115,7 @@ export function Navbar() {
                     key={item.href}
                     href={item.href}
                     onClick={() => setOpen(false)}
-                    className="focus-ring rounded-2xl border border-line bg-white/[0.035] px-5 py-4 text-xl font-semibold text-foreground"
+                    className="focus-ring rounded-2xl border border-warm/18 bg-surface px-5 py-4 text-xl font-semibold text-surface-ink shadow-[0_16px_45px_rgba(0,0,0,0.22)]"
                   >
                     {item.label}
                   </Link>

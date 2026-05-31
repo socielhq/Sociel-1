@@ -17,8 +17,8 @@ export function Work() {
   const slides = selectedWork?.carousel ?? [];
   const frameSize =
     selectedWork?.carouselAspect === "square"
-      ? "aspect-square w-[min(82vw,520px)]"
-      : "aspect-[4/5] w-[min(78vw,430px)]";
+      ? "aspect-square w-[min(64vw,520px)] sm:w-[min(82vw,520px)]"
+      : "aspect-[4/5] w-[min(62vw,430px)] sm:w-[min(78vw,430px)]";
 
   function openCarousel(number: string) {
     setActiveWork(number);
@@ -131,12 +131,12 @@ export function Work() {
               </h3>
             </div>
 
-            <div className="flex items-center justify-center gap-3 sm:gap-5">
+            <div className="flex w-full items-center justify-center gap-2 sm:gap-5">
               <button
                 type="button"
                 aria-label="Previous slide"
                 onClick={showPreviousSlide}
-                className="focus-ring inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-line bg-white/[0.06] text-foreground transition hover:border-warm/45 hover:bg-white/[0.1]"
+                className="focus-ring inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-line bg-white/[0.08] text-foreground transition hover:border-warm/45 hover:bg-white/[0.1] sm:h-11 sm:w-11"
               >
                 <ChevronLeft className="h-5 w-5" />
               </button>
@@ -157,7 +157,7 @@ export function Work() {
                 type="button"
                 aria-label="Next slide"
                 onClick={showNextSlide}
-                className="focus-ring inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-line bg-white/[0.06] text-foreground transition hover:border-warm/45 hover:bg-white/[0.1]"
+                className="focus-ring inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-line bg-white/[0.08] text-foreground transition hover:border-warm/45 hover:bg-white/[0.1] sm:h-11 sm:w-11"
               >
                 <ChevronRight className="h-5 w-5" />
               </button>

@@ -77,6 +77,11 @@ select {
   text-transform: uppercase;
 }
 
+.hero-display {
+  font-family: "Elongated Roman", "Bodoni 72", "Bodoni MT", Didot, Georgia, serif;
+  font-weight: 400;
+}
+
 .grid-texture {
   background-image:
     linear-gradient(rgba(244, 239, 229, 0.055) 1px, transparent 1px),
