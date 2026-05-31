@@ -9,10 +9,10 @@ export function Footer() {
       <div className="container-shell flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <Image
-            src="/sociel-logo.svg"
+            src="/sociel-logo.png"
             alt="sociel"
             className="h-10 w-auto"
-            width={103}
+            width={140}
             height={40}
           />
           <p className="mt-1 text-sm text-muted">Social Media Management Studio</p>
