@@ -78,8 +78,10 @@ select {
 }
 
 .hero-display {
-  font-family: "Elongated Roman", "Bodoni 72", "Bodoni MT", Didot, Georgia, serif;
-  font-weight: 400;
+  font-family: "Elongated Roman", "Bodoni 72 Smallcaps", "Bodoni 72", "Bodoni MT Poster Compressed", "Bodoni MT", Didot, Georgia, serif;
+  font-stretch: condensed;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 .grid-texture {

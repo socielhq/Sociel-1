@@ -19,8 +19,8 @@ export function Hero() {
         >
           <span className="signal-mark mb-6" aria-hidden="true" />
           <p className="eyebrow">Social Presence / Managed With Taste</p>
-          <h1 className="hero-display mt-5 text-balance text-5xl leading-[1.02] tracking-normal text-foreground sm:text-6xl lg:text-7xl">
-            Your brand should feel alive where people actually pay attention.
+          <h1 className="hero-display mt-5 text-balance text-5xl leading-[0.9] tracking-normal text-foreground sm:text-6xl lg:text-7xl">
+            Your Brand Should Feel Alive Where People Actually Pay Attention.
           </h1>
           <p className="mt-6 max-w-2xl text-pretty text-lg leading-8 text-muted sm:text-xl">
             Sociel manages modern Instagram, LinkedIn, short-form, editing,
