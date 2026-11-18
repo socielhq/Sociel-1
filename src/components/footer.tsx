@@ -25,7 +25,7 @@ export function Footer() {
             className="focus-ring inline-flex items-center gap-2 rounded-full text-sm font-medium text-muted transition hover:text-foreground"
           >
             <Instagram className="h-4 w-4" />
-            @sociel.in
+            @bysociel
           </Link>
           {navItems.map((item) => (
             <Link

@@ -136,7 +136,7 @@ export function Navbar() {
                 className="focus-ring mt-3 flex min-h-12 items-center justify-center gap-2 rounded-full border border-warm/18 bg-surface px-5 text-sm font-semibold text-surface-ink shadow-[0_16px_45px_rgba(0,0,0,0.22)]"
               >
                 <Instagram className="h-4 w-4" />
-                @sociel.in
+                @bysociel
               </Link>
             </motion.div>
           </motion.div>
