@@ -166,24 +166,24 @@ export const process = [
 export const testimonials = [
   {
     quote:
-      "Sociel brought a cleaner rhythm to our digital presence. The content felt organized, premium, and much easier for our audience to understand.",
+      "Sociel understood the level of detail our brand needs. The content now feels polished, considered, and true to the visual standard Elegant Options stands for.",
     name: "Vidya Sindhgatta",
     company: "Elegant Options"
   },
   {
     quote:
-      "The positioning-led approach helped our ideas land with more clarity. Every post felt intentional, not just designed for the sake of posting.",
+      "Sociel helped us turn complex positioning into clear, credible content. Every post now carries the strategic thinking behind our work without losing its simplicity.",
     name: "Global CMO Partners"
   },
   {
     quote:
-      "The visual direction and execution made our content feel sharper while still staying simple, readable, and platform-native.",
+      "Sociel brought a sharper editorial rhythm to our presence. The work feels culturally aware, visually distinctive, and easier for our audience to engage with.",
     name: "Manjula Subhash Nair",
     company: "Creative Bharat News"
   },
   {
     quote:
-      "Sociel gave our social presence a more considered direction, making each message feel clear, composed, and on-brand.",
+      "Sociel helped us build an informative digital presence around legal awareness and public education. The content stayed measured, credible, and mindful of the professional boundaries we need to respect.",
     name: "Adv. Subhash Nair",
     company: "Global Legal Partners"
   }
