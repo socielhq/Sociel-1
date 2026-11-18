@@ -193,7 +193,7 @@ export const clientLogos = [
   {
     name: "Elegant Options",
     image: "/client-logos/elegant-options.png",
-    size: "h-12",
+    size: "h-14",
     className: "client-logo--elegant"
   },
   {

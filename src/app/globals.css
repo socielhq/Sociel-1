@@ -103,7 +103,12 @@ select {
 }
 
 .logo-marquee .group:hover .client-logo--elegant {
-  filter: brightness(2.3) saturate(1.35);
+  filter: brightness(3.2) saturate(1.45);
+}
+
+.client-logo--elegant {
+  filter: grayscale(1) brightness(5.4) contrast(0.62);
+  opacity: 0.9;
 }
 
 @keyframes logo-marquee {
