@@ -73,14 +73,17 @@ export function Contact() {
               Platform Focus
               <select
                 name="platform"
+                required
                 className="focus-ring min-h-12 rounded-2xl border border-line bg-[#11110f] px-4 text-sm text-foreground"
-                defaultValue="Instagram + LinkedIn"
+                defaultValue=""
               >
-                <option>Instagram + LinkedIn</option>
-                <option>Instagram management</option>
-                <option>LinkedIn presence</option>
-                <option>Short-form content</option>
-                <option>Full platform management</option>
+                <option value="" disabled>
+                  What do you need help with?
+                </option>
+                <option>LinkedIn</option>
+                <option>Instagram</option>
+                <option>LinkedIn + Instagram</option>
+                <option>Brand setup</option>
               </select>
             </label>
           </div>

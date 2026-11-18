@@ -2,7 +2,6 @@ import {
   Aperture,
   BarChart3,
   CalendarCheck,
-  Clapperboard,
   Edit3,
   Eye,
   Film,
@@ -26,6 +25,12 @@ export const navItems = [
 
 export const services = [
   {
+    title: "Brand Foundation & Identity",
+    description:
+      "Positioning, key message and tone of voice, plus the colours, fonts and post templates that make every post look like you. Includes profile setup and a short brand guide.",
+    icon: Layers3
+  },
+  {
     title: "Instagram Presence Management",
     description:
       "A steady visual rhythm for feeds, stories, reels, captions, and community-facing details.",
@@ -36,12 +41,6 @@ export const services = [
     description:
       "Credible thought-led publishing that keeps founders and teams visible without feeling forced.",
     icon: Linkedin
-  },
-  {
-    title: "Short-Form Content Management",
-    description:
-      "Content systems for reels, clips, hooks, retention edits, and platform-native packaging.",
-    icon: Clapperboard
   },
   {
     title: "Content Editing & Optimization",

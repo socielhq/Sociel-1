@@ -23,8 +23,8 @@ export function Hero() {
             Your Brand Should Feel Alive Where People Actually Pay Attention.
           </h1>
           <p className="mt-6 max-w-2xl text-pretty text-lg leading-8 text-muted sm:text-xl">
-            Sociel manages modern Instagram, LinkedIn, short-form, editing,
-            design, and publishing systems for brands that need presence with
+            Sociel manages modern Instagram, LinkedIn, design, and publishing
+            systems for brands that need presence with
             consistency and cultural fluency.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
