@@ -178,5 +178,33 @@ export const testimonials = [
     quote:
       "The visual direction and execution made our content feel sharper while still staying simple, readable, and platform-native.",
     name: "Creative News Bharat"
+  },
+  {
+    quote:
+      "Sociel gave our social presence a more considered direction, making each message feel clear, composed, and on-brand.",
+    name: "Global Legal Partners"
+  }
+];
+
+export const clientLogos = [
+  {
+    name: "Elegant Options",
+    image: "/client-logos/elegant-options.png",
+    tone: "light"
+  },
+  {
+    name: "Global CMO Partners",
+    image: "/client-logos/global-cmo-partners.png",
+    tone: "light"
+  },
+  {
+    name: "Creative News Bharat",
+    image: "/client-logos/creative-news-bharat.png",
+    tone: "light"
+  },
+  {
+    name: "Global Legal Partners",
+    image: "/client-logos/global-legal-partners.png",
+    tone: "dark"
   }
 ];

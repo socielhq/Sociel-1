@@ -84,6 +84,26 @@ select {
   text-transform: uppercase;
 }
 
+.logo-marquee {
+  animation: logo-marquee 28s linear infinite;
+}
+
+.logo-marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes logo-marquee {
+  to {
+    transform: translateX(calc(-50% - 8px));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-marquee {
+    animation: none;
+  }
+}
+
 .grid-texture {
   background-image:
     linear-gradient(rgba(244, 239, 229, 0.055) 1px, transparent 1px),
