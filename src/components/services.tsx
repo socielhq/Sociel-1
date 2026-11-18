@@ -10,7 +10,7 @@ export function Services() {
         <span className="signal-mark mx-auto mb-6" aria-hidden="true" />
         <SectionHeading
           eyebrow="services"
-          title="the operational layer behind a sharper social presence"
+          title="The Operational Layer Behind A Sharper Social Presence"
           description="Sociel supports the recurring work that keeps modern channels coherent, useful, and visually considered."
         />
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
