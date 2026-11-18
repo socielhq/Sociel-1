@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function Testimonials() {
   return (
-    <section className="section-pad relative">
+    <section className="section-pad testimonials-section relative">
       <div className="container-shell">
         <div className="mb-12 overflow-hidden py-2 sm:mb-16">
           <div className="relative overflow-hidden py-3">

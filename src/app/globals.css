@@ -69,6 +69,10 @@ select {
   padding-block: clamp(4.5rem, 8vw, 7rem);
 }
 
+.testimonials-section {
+  padding-top: calc(clamp(4.5rem, 8vw, 7rem) + 2rem);
+}
+
 .eyebrow {
   color: var(--warm);
   font-size: 0.74rem;
