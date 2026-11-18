@@ -19,7 +19,7 @@ export function Footer() {
         </div>
         <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
           <Link
-            href="https://instagram.com/sociel.in"
+            href="https://www.instagram.com/bysociel/"
             target="_blank"
             rel="noreferrer"
             className="focus-ring inline-flex items-center gap-2 rounded-full text-sm font-medium text-muted transition hover:text-foreground"

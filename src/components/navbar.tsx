@@ -51,7 +51,7 @@ export function Navbar() {
 
         <div className="hidden items-center gap-3 lg:flex">
           <Link
-            href="https://instagram.com/sociel.in"
+            href="https://www.instagram.com/bysociel/"
             target="_blank"
             rel="noreferrer"
             aria-label="Sociel Instagram"
@@ -129,7 +129,7 @@ export function Navbar() {
                 Start A Project
               </Link>
               <Link
-                href="https://instagram.com/sociel.in"
+                href="https://www.instagram.com/bysociel/"
                 target="_blank"
                 rel="noreferrer"
                 onClick={() => setOpen(false)}
