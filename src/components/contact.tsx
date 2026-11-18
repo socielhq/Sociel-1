@@ -2,6 +2,8 @@
 
 import { FormEvent, useState } from "react";
 import { ButtonLink } from "@/components/button-link";
+import { Instagram, Linkedin } from "lucide-react";
+import Link from "next/link";
 
 export function Contact() {
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
@@ -54,10 +56,35 @@ export function Contact() {
             Tell us what you are managing, what feels messy, and where the brand
             needs to show up with more clarity.
           </p>
-          <div className="mt-8">
+          <div className="mt-8 flex flex-wrap gap-3">
             <ButtonLink href="mailto:hello@sociel.in" variant="secondary">
               hello@sociel.in
             </ButtonLink>
+            <Link
+              href="tel:+918767354528"
+              aria-label="Call Sociel at +91 87673 54528"
+              className="focus-ring inline-flex min-h-12 items-center justify-center rounded-full border border-line bg-white/[0.035] px-5 text-sm font-semibold text-foreground shadow-[inset_0_1px_0_rgba(244,239,229,0.06)] transition hover:-translate-y-0.5 hover:border-warm/50 hover:bg-white/[0.075]"
+            >
+              +91 87673 54528
+            </Link>
+            <Link
+              href="https://www.instagram.com/bysociel/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Sociel Instagram"
+              className="focus-ring inline-flex min-h-12 items-center justify-center rounded-full border border-line bg-white/[0.035] px-4 text-foreground transition hover:-translate-y-0.5 hover:border-warm/50 hover:bg-white/[0.075]"
+            >
+              <Instagram className="h-4 w-4" />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/company/133813949/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Sociel LinkedIn"
+              className="focus-ring inline-flex min-h-12 items-center justify-center rounded-full border border-line bg-white/[0.035] px-4 text-foreground transition hover:-translate-y-0.5 hover:border-warm/50 hover:bg-white/[0.075]"
+            >
+              <Linkedin className="h-4 w-4" />
+            </Link>
           </div>
         </div>
 

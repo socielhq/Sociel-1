@@ -2,22 +2,22 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "sociel | social media management studio",
+  title: "Sociel | Content & Brand Studio, Pune",
   description:
-    "Sociel is a premium social media management studio for Instagram, LinkedIn, short-form content, visual content design, and platform execution.",
+    "Sociel is a content and brand studio. We plan, write and design LinkedIn and Instagram content for founders, professional firms and experts, from about 30 minutes of your input a month.",
   openGraph: {
-    title: "sociel | social media management studio",
+    title: "Sociel | Content & Brand Studio, Pune",
     description:
-      "A modern social media studio helping businesses maintain a strong, consistent, internet-native presence.",
+      "Sociel is a content and brand studio. We plan, write and design LinkedIn and Instagram content for founders, professional firms and experts, from about 30 minutes of your input a month.",
     url: "https://sociel.in",
     siteName: "sociel",
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "sociel | social media management studio",
+    title: "Sociel | Content & Brand Studio, Pune",
     description:
-      "Premium social media management for brands that need consistency, taste, and reliable execution."
+      "Sociel is a content and brand studio. We plan, write and design LinkedIn and Instagram content for founders, professional firms and experts, from about 30 minutes of your input a month."
   }
 };
 

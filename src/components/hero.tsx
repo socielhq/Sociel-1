@@ -18,14 +18,12 @@ export function Hero() {
           className="max-w-3xl"
         >
           <span className="signal-mark mb-6" aria-hidden="true" />
-          <p className="eyebrow">Social Presence / Managed With Taste</p>
+          <p className="eyebrow">Content & Brand Studio</p>
           <h1 className="hero-display mt-5 text-balance text-5xl leading-[0.9] tracking-normal text-foreground sm:text-6xl lg:text-7xl">
-            Your Brand Should Feel Alive Where People Actually Pay Attention.
+            Show Up Every Week On LinkedIn And Instagram, Without Spending Your Week On It.
           </h1>
           <p className="mt-6 max-w-2xl text-pretty text-lg leading-8 text-muted sm:text-xl">
-            Sociel manages modern Instagram, LinkedIn, design, and publishing
-            systems for brands that need presence with
-            consistency and cultural fluency.
+            Sociel plans, writes, and designs content systems that give brands a clear, consistent presence without taking over their week.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <ButtonLink href="#contact">Start A Project</ButtonLink>

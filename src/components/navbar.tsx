@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion";
-import { Instagram, Menu, X } from "lucide-react";
+import { Instagram, Linkedin, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -30,7 +30,7 @@ export function Navbar() {
         <Link href="#" className="focus-ring flex items-center rounded-sm">
           <Image
             src="/sociel-logo.png"
-            alt="sociel"
+            alt="Sociel logo"
             className="h-10 w-auto"
             width={140}
             height={40}
@@ -58,6 +58,15 @@ export function Navbar() {
             className="focus-ring inline-flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white/[0.04] text-muted transition hover:-translate-y-0.5 hover:border-warm/45 hover:text-foreground"
           >
             <Instagram className="h-4 w-4" />
+          </Link>
+          <Link
+            href="https://www.linkedin.com/company/133813949/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Sociel LinkedIn"
+            className="focus-ring inline-flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white/[0.04] text-muted transition hover:-translate-y-0.5 hover:border-warm/45 hover:text-foreground"
+          >
+            <Linkedin className="h-4 w-4" />
           </Link>
           <Link
             href="#contact"
@@ -88,7 +97,7 @@ export function Navbar() {
             <div className="container-shell flex h-20 items-center justify-between">
               <Image
                 src="/sociel-logo.png"
-                alt="sociel"
+                alt="Sociel logo"
                 className="h-10 w-auto"
                 width={140}
                 height={40}
@@ -137,6 +146,17 @@ export function Navbar() {
               >
                 <Instagram className="h-4 w-4" />
                 @bysociel
+              </Link>
+              <Link
+                href="https://www.linkedin.com/company/133813949/"
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => setOpen(false)}
+                aria-label="Sociel LinkedIn"
+                className="focus-ring mt-3 flex min-h-12 items-center justify-center gap-2 rounded-full border border-warm/18 bg-surface px-5 text-sm font-semibold text-surface-ink shadow-[0_16px_45px_rgba(0,0,0,0.22)]"
+              >
+                <Linkedin className="h-4 w-4" />
+                LinkedIn
               </Link>
             </motion.div>
           </motion.div>

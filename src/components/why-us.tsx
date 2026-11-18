@@ -3,7 +3,7 @@ import { reasons } from "@/lib/content";
 
 export function WhyUs() {
   return (
-    <section id="approach" className="section-pad relative overflow-hidden">
+    <section id="why-sociel" className="section-pad relative overflow-hidden">
       <div className="absolute bottom-16 left-0 h-px w-full bg-gradient-to-r from-transparent via-accent-2/30 to-transparent" />
       <div className="container-shell grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
         <AnimatedSection>
