@@ -193,21 +193,21 @@ export const clientLogos = [
   {
     name: "Elegant Options",
     image: "/client-logos/elegant-options.png",
-    tone: "light"
+    size: "h-12"
   },
   {
     name: "Global CMO Partners",
-    image: "/client-logos/global-cmo-partners.png",
-    tone: "light"
+    image: "/client-logos/global-cmo-partners-transparent.png",
+    size: "h-14"
   },
   {
     name: "Creative Bharat News",
-    image: "/client-logos/creative-news-bharat.png",
-    tone: "light"
+    image: "/client-logos/creative-bharat-news-transparent.png",
+    size: "h-16"
   },
   {
     name: "Global Legal Partners",
     image: "/client-logos/global-legal-partners.png",
-    tone: "dark"
+    size: "h-14"
   }
 ];

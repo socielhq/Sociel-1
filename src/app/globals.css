@@ -92,6 +92,11 @@ select {
   animation-play-state: paused;
 }
 
+.client-logo {
+  filter: grayscale(1) brightness(2.15) contrast(0.72);
+  opacity: 0.72;
+}
+
 @keyframes logo-marquee {
   to {
     transform: translateX(calc(-50% - 8px));

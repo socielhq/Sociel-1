@@ -6,26 +6,27 @@ export function Testimonials() {
   return (
     <section className="section-pad relative">
       <div className="container-shell">
-        <div className="relative mb-10 overflow-hidden border-y border-line py-4">
-          <div className="logo-marquee flex w-max gap-4">
+        <div className="mb-12 overflow-hidden py-2 sm:mb-16">
+          <h2 className="mb-10 text-center text-3xl font-semibold tracking-normal text-foreground sm:text-5xl">
+            Trusted By <span className="font-serif italic text-warm">Leading Brands</span>
+          </h2>
+          <div className="relative overflow-hidden py-3">
+            <div className="logo-marquee flex w-max items-center gap-10 sm:gap-16">
             {[...clientLogos, ...clientLogos].map((client, index) => (
               <div
                 key={`${client.name}-${index}`}
-                className={`flex h-24 w-48 shrink-0 items-center justify-center border px-5 shadow-[0_14px_36px_rgba(0,0,0,0.14)] ${
-                  client.tone === "dark"
-                    ? "border-white/10 bg-[#14130f]"
-                    : "border-[#d9cfbe] bg-[#f4efe5]"
-                }`}
+                className="group flex h-20 w-44 shrink-0 items-center justify-center sm:h-24 sm:w-52"
               >
                 <Image
                   src={client.image}
                   alt={client.name}
                   width={720}
                   height={360}
-                  className="h-16 w-full object-contain"
+                  className={`client-logo w-full object-contain transition duration-300 group-hover:opacity-100 group-hover:grayscale-0 group-hover:brightness-100 group-hover:contrast-100 ${client.size}`}
                 />
               </div>
             ))}
+            </div>
           </div>
         </div>
         <div className="grid gap-5 lg:grid-cols-[0.72fr_1.28fr] lg:items-stretch">
