@@ -123,7 +123,7 @@ export const work = [
     image: "/work/global-legal-acceptance/01.webp",
     description:
       "A structured legal-awareness carousel that turns a commercial ruling into clear, accessible public education.",
-    carouselAspect: "square",
+    carouselAspect: "portrait",
     carousel: [
       "/work/global-legal-acceptance/01.webp",
       "/work/global-legal-acceptance/02.webp",

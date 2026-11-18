@@ -151,6 +151,8 @@ export function Work() {
                   alt={`${selectedWork.title} slide ${activeSlide + 1}`}
                   fill
                   sizes="(min-width: 768px) 520px, 82vw"
+                  quality={100}
+                  unoptimized={selectedWork.number === "03"}
                   className="object-contain"
                 />
               </div>
