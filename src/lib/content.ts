@@ -194,25 +194,25 @@ export const testimonials = [
   {
     quote:
       "Sociel understood the level of detail our brand needs. The content now feels polished, considered, and true to the visual standard Elegant Options stands for.",
-    name: "TODO: Add client name",
-    role: "TODO: Add role / organization"
+    name: "Vidya Sindhgatta",
+    role: "Elegant Options"
   },
   {
     quote:
       "Sociel helped us turn complex positioning into clear, credible content. Every post now carries the strategic thinking behind our work without losing its simplicity.",
-    name: "TODO: Add client name",
-    role: "TODO: Add role / organization"
+    name: "Global CMO Partners"
   },
   {
     quote:
       "Sociel brought a sharper editorial rhythm to our presence. The work feels culturally aware, visually distinctive, and easier for our audience to engage with.",
-    name: "TODO: Add client name",
-    role: "TODO: Add role / Creative Bharat News"
+    name: "Manjula Subhash Nair",
+    role: "Creative Bharat News"
   },
   {
-    quote: "TODO: Add approved Global Legal Partners testimonial quote.",
-    name: "TODO: Add client name",
-    role: "TODO: Add role / Global Legal Partners"
+    quote:
+      "Sociel helped us build an informative digital presence around legal awareness and public education. The content stayed measured, credible, and mindful of the professional boundaries we need to respect.",
+    name: "Adv. Subhash Nair",
+    role: "Global Legal Partners"
   }
 ];
 
