@@ -97,6 +97,15 @@ select {
   opacity: 0.72;
 }
 
+.logo-marquee .group:hover .client-logo {
+  filter: none;
+  opacity: 1;
+}
+
+.logo-marquee .group:hover .client-logo--elegant {
+  filter: brightness(2.3) saturate(1.35);
+}
+
 @keyframes logo-marquee {
   to {
     transform: translateX(calc(-50% - 8px));

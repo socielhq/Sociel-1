@@ -22,7 +22,7 @@ export function Testimonials() {
                   alt={client.name}
                   width={720}
                   height={360}
-                  className={`client-logo w-full object-contain transition duration-300 group-hover:opacity-100 group-hover:grayscale-0 group-hover:brightness-100 group-hover:contrast-100 ${client.size}`}
+                  className={`client-logo w-full object-contain transition duration-300 ${client.size} ${client.className}`}
                 />
               </div>
             ))}
