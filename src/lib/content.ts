@@ -155,7 +155,7 @@ export const reasons = [
     icon: Workflow
   },
   {
-    title: "Internet-Native Judgment",
+    title: "Platform Know-How",
     description:
       "We understand platform behavior, social formats, and the difference between relevance and trend-chasing.",
     icon: Sparkles

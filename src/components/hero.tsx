@@ -44,7 +44,7 @@ export function Hero() {
               <div className="absolute inset-0 grid-texture opacity-25" />
               <div className="absolute left-7 top-7 z-20 flex items-center gap-2 rounded-full border border-line bg-background/70 px-3 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-muted backdrop-blur-sm">
                 <span className="h-2 w-2 rounded-full bg-warm" />
-                Selected Work
+                Recent Work
               </div>
 
               <motion.div

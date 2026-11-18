@@ -43,6 +43,11 @@ export default function PrivacyPolicyPage() {
             </section>
 
             <section>
+              <h2 className="text-2xl font-semibold text-foreground">How Long We Keep It</h2>
+              <p className="mt-3">We keep enquiry details for up to 12 months, then delete them.</p>
+            </section>
+
+            <section>
               <h2 className="text-2xl font-semibold text-foreground">Your Data</h2>
               <p className="mt-3">
                 To request access to, correction of, or deletion of your contact-form information, email hello@sociel.in.

@@ -27,7 +27,7 @@ export function Navbar() {
       className="fixed inset-x-0 top-0 z-50 border-b backdrop-blur-md"
     >
       <nav className="container-shell flex h-20 items-center justify-between">
-        <Link href="#" className="focus-ring flex items-center rounded-sm">
+        <Link href="/" className="focus-ring flex items-center rounded-sm">
           <Image
             src="/sociel-logo.png"
             alt="Sociel logo"

@@ -7,9 +7,6 @@ export function Testimonials() {
     <section className="section-pad relative">
       <div className="container-shell">
         <div className="mb-12 overflow-hidden py-2 sm:mb-16">
-          <h2 className="mb-10 text-center text-3xl font-semibold tracking-normal text-foreground sm:text-5xl">
-            Trusted By <span className="font-serif italic text-warm">Leading Brands</span>
-          </h2>
           <div className="relative overflow-hidden py-3">
             <div className="logo-marquee flex w-max items-center gap-10 sm:gap-16">
             {[...clientLogos, ...clientLogos].map((client, index) => (
