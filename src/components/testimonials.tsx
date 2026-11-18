@@ -48,6 +48,11 @@ export function Testimonials() {
               >
                 <p className="text-lg leading-8 text-foreground">&quot;{testimonial.quote}&quot;</p>
                 <p className="mt-8 text-sm font-semibold text-warm">{testimonial.name}</p>
+                {testimonial.company ? (
+                  <p className="mt-1 text-xs font-medium uppercase tracking-[0.14em] text-muted">
+                    {testimonial.company}
+                  </p>
+                ) : null}
               </AnimatedSection>
             ))}
           </div>

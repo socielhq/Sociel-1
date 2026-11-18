@@ -15,7 +15,7 @@ export function Footer() {
             width={140}
             height={40}
           />
-          <p className="mt-1 text-sm text-muted">Social Media Management Studio</p>
+          <p className="mt-1 text-sm text-muted">Content & Brand Studio</p>
         </div>
         <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
           <Link

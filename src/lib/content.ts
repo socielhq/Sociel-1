@@ -167,7 +167,8 @@ export const testimonials = [
   {
     quote:
       "Sociel brought a cleaner rhythm to our digital presence. The content felt organized, premium, and much easier for our audience to understand.",
-    name: "Elegant Options"
+    name: "Vidya Sindhgatta",
+    company: "Elegant Options"
   },
   {
     quote:
@@ -177,12 +178,14 @@ export const testimonials = [
   {
     quote:
       "The visual direction and execution made our content feel sharper while still staying simple, readable, and platform-native.",
-    name: "Creative News Bharat"
+    name: "Manjula Subhash Nair",
+    company: "Creative Bharat News"
   },
   {
     quote:
       "Sociel gave our social presence a more considered direction, making each message feel clear, composed, and on-brand.",
-    name: "Global Legal Partners"
+    name: "Adv. Subhash Nair",
+    company: "Global Legal Partners"
   }
 ];
 
@@ -198,7 +201,7 @@ export const clientLogos = [
     tone: "light"
   },
   {
-    name: "Creative News Bharat",
+    name: "Creative Bharat News",
     image: "/client-logos/creative-news-bharat.png",
     tone: "light"
   },
